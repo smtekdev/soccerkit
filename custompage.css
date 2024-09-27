@@ -1,0 +1,214 @@
+
+
+.mainheading{
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #202223;
+    line-height: 1.2;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.s-pr{
+    font-family: Oswald, sans-serif;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #6d7175;
+    font-size: 27px;
+    
+}
+
+.str-r{
+
+    font-family: Oswald, sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #6d7175;
+    font-size: 13px;
+}
+
+.m-pr{
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.size-guide{
+
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #202223;
+    line-height: 1.2;
+    font-size: 17px;
+}
+
+
+
+
+.flex-form {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between; /* Space between columns */
+    gap: 20px; /* Space between form groups */
+    width: 60%;
+    margin-left: 250px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    width: 48%; /* Take up about half of the container for each column */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Label on top of select */
+    margin-bottom: 15px; /* Space between fields */
+}
+
+label {
+    
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  
+    font-family: Oswald, sans-serif;
+    font-weight: 600;
+    
+    color: #6d7175;
+    line-height: 1.2;
+    font-size: 17px;
+
+}
+
+select {
+    padding: 10px;
+    width: 100%; /* Full width of the parent container */
+    box-sizing: border-box;
+    font-family: Oswald, sans-serif;
+    color: #6d7175;
+    background-color: #fff;
+    line-height: 1.5rem;
+    letter-spacing: normal;
+    font-size: 17px;
+}
+
+
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Take full width for the submit button */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/*  Hero section Starts */
+
+/* Main section styling */
+.main-section {
+    box-shadow: rgba(14, 30, 37, 0.12) 1px 2px 4px 1px, rgba(14, 30, 37, 0.32) 1px 2px 16px 1px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 600px;
+    /* border: 1px solid red; */
+  }
+  
+  /* Left Section */
+/* Left Section */
+.left-section {
+    display: flex;                  /* Make the left section a flex container */
+    width: 35%;                   /* Full width for better layout control */
+    /* border-right: 2px solid #ccc;   */
+}
+
+/* Icon List */
+.icon-list {
+    display: flex;
+    flex-direction: column;        /* Icons arranged vertically */
+    width: 20%;                    /* Adjust width for the icon list */
+    /* border-right: 2px solid #ccc;   */
+    padding-right: 15px;           /* Space between icons and items */
+    gap: 48px;                     /* Space between icons */
+
+    padding-top: 28px;
+   
+}
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);  /* Slight zoom on hover */
+}
+
+/* Items List (Product Thumbnails) */
+.items-list {
+    display: flex;
+    flex-wrap: wrap;          /* Allow wrapping of items */
+    gap: 15px;                /* Space between product thumbnails */
+    width: 85%;               /* Adjust width for the items list */
+    
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 1px 1px 1px 1px, rgba(14, 30, 37, 0.32) 1px 2px 16px 1px;
+}
+
+.items-list .item {
+    cursor: pointer;
+}
+
+.items-list img {
+    width: 100px;   /* Size of product thumbnails */
+    transition: transform 0.3s ease;
+}
+
+.items-list img:hover {
+    transform: scale(1.1);  /* Slight zoom on hover */
+}
+
+  
+  /* Right Section */
+  .right-section {
+    width: 65%;   /* Adjust the width of the right section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  /* Large Image Display */
+  .item-display img {
+    width: 600px;   /* Adjust the size of the large product image */
+    height: auto;
+    /* border: 2px solid #ccc; */
+    /* border-radius: 10px; */
+    padding: 10px;
+  }
+  
+/* Hero section Ends */
+
+

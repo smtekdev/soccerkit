@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="custompage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+
+<!-- Navbar starts -->
+    
+    <nav class="navbar">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="./assets/logo.png" alt="Logo" />
+        </div>
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DIRECTORY</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">CUSTOMIZABLE UNIFORMS</a></li>
+        </ul>
+        <!-- Login Button -->
+        <button class="login-btn">Login / Register</button>
+    </nav>
+
+<!-- Navbar Ends -->
+
+
+
+<!-- Banner Starts -->
+
+<div class="main-section">
+    <!-- Left Section -->
+    <div class="left-section">
+      <div class="icon-list">
+        <div class="icon" data-type="style"> <img src="assets/style.png" width="50px" alt=""></div>
+        <div class="icon" data-type="logo"> <img src="assets/c-logo.png" width="50px" alt=""> </div>
+        <div class="icon" data-type="text"> <img src="assets/text.png" width="50px" alt=""> </div>
+        <div class="icon" data-type="colors"><img src="assets/colors.png" width="50px" alt=""> </div>
+        
+        <!-- Add more icons for other categories -->
+      </div>
+      <div class="items-list">
+        <!-- This section will dynamically show items (product thumbnails) when an icon is clicked -->
+      </div>
+    </div>
+  
+    <!-- Right Section -->
+    <div class="right-section">
+      <div class="item-display">
+        <!-- This section will show the larger version of the selected product -->
+        <img id="display-image" src="" alt="Selected Item" />
+      </div>
+    </div>
+  </div>
+  
+
+<!-- Banner Ends -->
+
+<div class="head-box" >
+
+<p class="mainheading" >CUSTOM SOCCER KIT</p>
+
+<div class="m-pr" >
+<p class="s-pr">$39.00</p> <img src="./assets/mystars.png" style="width: 100px;" alt=""> <p class="str-r">5 reviews</p>
+</div>
+
+<p class="size-guide">Size Guide</p>
+
+</div>
+
+
+
+<!--Form Section starts  -->
+
+
+
+<form class="flex-form" >
+    <!-- Left Column -->
+    <div class="form-column">
+      
+        
+        <label for="sleeve-length">Sleeve Length </label>
+        <select id="sleeve-length" name="sleeve-length">
+            <option value="">Select Sleeve Length</option>
+            <option value="short">Short</option>
+            <option value="long">Long</option>
+        </select>
+
+
+        <div class="form-group">
+           
+        </div>
+
+        <div class="form-group">
+            <label for="collar-type">Collar Type</label>
+            <select id="collar-type" name="collar-type">
+                <option value="">Select Collar Type</option>
+                <option value="round-neck">Round Neck</option>
+                <option value="v-neck">V-Neck</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="fit-type">Fit Type</label>
+            <select id="fit-type" name="fit-type">
+                <option value="">Select Fit Type</option>
+                <option value="men">Men</option>
+                <option value="women">Women</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="goalkeeper-kit">Add a Goalkeeper Kit?</label>
+            <select id="goalkeeper-kit" name="goalkeeper-kit">
+                <option value="">Select Option</option>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="form-column">
+        <div class="form-group">
+
+
+            <label for="team-logo">Team Logo</label>
+            <select id="team-logo" name="team-logo">
+                <option value="">Select Logo Style</option>
+                <option value="sublimated">Sublimated (Printed)</option>
+                <option value="embroidered">Embroidered</option>
+            </select>
+
+
+
+        </div>
+
+        <div class="form-group">
+            <label for="fabric">Fabric</label>
+            <select id="fabric" name="fabric">
+                <option value="">Select Fabric</option>
+                <option value="cool-dry">Cool Dry</option>
+                <option value="cotton">Cotton</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="inside-collar-message">Inside Collar Message</label>
+            <select id="inside-collar-message" name="inside-collar-message">
+                <option value="">Select Message Type</option>
+                <option value="none">None</option>
+                <option value="custom">Custom</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="sock-type">Sock Type</label>
+            <select id="sock-type" name="sock-type">
+                <option value="">Select Sock Type</option>
+                <option value="full-foot">Full Foot</option>
+                <option value="ankle">Ankle</option>
+            </select>
+        </div>
+    </div>
+
+   
+    <!-- <div class="form-group submit-button">
+        <button type="submit">Submit</button>
+    </div> -->
+
+
+</form>
+
+
+
+    
+<!--Form Section Ends  -->
+
+
+
+
+
+
+
+
+
+<!-- Footer Starts -->
+
+<footer class="custom-footer">
+    <div class="footer-container">
+        <!-- First Div: Logo and Summary -->
+        <div class="footer-logo-summary">
+            <img src="./assets/logo.png" alt="Logo" class="footer-logo" style="max-width: 100px;">
+            <p class="footer-summary">
+                CONNECT 767 unites professionals and business leaders to drive growth.
+            </p>
+        </div>
+
+        <!-- Second Div: Quick Links -->
+        <div class="footer-quick-links">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-links-list">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">DIRECTORY</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">CUSTOMIZABLE UNIFORMS</a></li>
+            </ul>
+        </div>
+
+        <!-- Third Div: Our Services -->
+        <div class="footer-services">
+            <h4 class="footer-heading">Our Services</h4>
+            <ul class="footer-links-list">
+                <li><a href="#"><i class="fa-solid fa-angles-right" style="font-size: 12px;">&nbsp;</i>Professional Networking</a></li>
+                <li><a href="#"><i class="fa-solid fa-angles-right" style="font-size: 12px;">&nbsp;</i>Consulting Services</a></li>
+                <li><a href="#"><i class="fa-solid fa-angles-right" style="font-size: 12px;">&nbsp;</i>Workshops & Events</a></li>
+                <li><a href="#"><i class="fa-solid fa-angles-right" style="font-size: 12px;">&nbsp;</i>Partnership Programs</a></li>
+            </ul>
+        </div>
+
+        <!-- Fourth Div: Information with Social Media Icons -->
+        <div class="footer-info">
+            <h4 class="footer-heading">Information</h4>
+            <ul class="footer-info-list">
+                <li><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;New York, NY, 10001</li>
+                <li> <i class="fa-solid fa-envelope"></i> &nbsp;<a href="mailto:info@connect767.com">info@connect767.com</a></li>
+                <li><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;Phone: 862-253-2076</li>
+            </ul>
+            <!-- Social Media Icons with a Different Class Name -->
+            <div class="footer-social-media-icons">
+                <a href="#" class="social-icon"><img src="./assets/fb.png" alt="Facebook" style="border-radius: 100%;"></a>
+                <a href="#" class="social-icon"><img src="./assets/twitter.png" alt="Twitter" style="border-radius: 100%;" ></a>
+                <a href="#" class="social-icon"><img src="./assets/youtube.png" alt="YouTube" style="border-radius: 100%;"></a>
+                <a href="#" class="social-icon"><img src="./assets/Instagram.webp" alt="Instagram" style="border-radius: 100%;"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        <!-- Copyright Section -->
+        <div class="footer-copyright">
+            <p>&copy; Copyright 2024 NY Creative Studio All Rights Reserved</p>
+        </div>
+
+    
+<!-- Footer Ends -->
+
+
+<!-- Script -->
+
+
+<script>
+
+// Sample data for your products (add image file paths here)
+const items = {
+  style: [
+    "assets/shirt1.jpg",
+    "assets/shirt2.jpg",
+    "assets/shirt3.jpg",
+    "assets/shirt4.jpg",
+    "assets/shirt5.jpg",
+    "assets/shirt6.jpg",
+    "assets/shirt7.jpg",
+    "assets/shirt8.jpg",
+    "assets/shirt9.jpg",
+    
+   
+    
+  ],
+  logo: [
+    "assets/c-logo1.jpg",
+    "assets/c-logo2.jpg",
+    "assets/c-logo3.jpg"
+  ],
+
+  text: [
+    "images/soccer1.png",
+    "images/soccer.png"
+  ],
+  colors:[
+    "images/manage.png",
+    "images/manage.png"
+  ]
+ 
+
+};
+
+// Event listener for icon clicks (like caps, shoes, jerseys)
+document.querySelectorAll(".icon").forEach(icon => {
+  icon.addEventListener("click", function() {
+    const type = this.getAttribute("data-type");
+    displayItems(type);
+  });
+});
+
+// Function to display items (product thumbnails) in the left section
+function displayItems(type) {
+  const itemsList = document.querySelector(".items-list");
+  itemsList.innerHTML = ''; // Clear the previous items
+
+  // Loop through the product images of the selected category (caps, shoes, etc.)
+  items[type].forEach(item => {
+    const div = document.createElement("div");
+    div.classList.add("item");
+    
+    // Create an image element for each product
+    const img = document.createElement("img");
+    img.src = item; // Set the image source (path)
+    img.alt = type; // Add alt text (optional)
+    
+    div.appendChild(img);
+    div.addEventListener("click", function() {
+      displayItemInRightSection(item); // Show the larger image when clicked
+    });
+
+    // Add each item (with its image) to the left section (items-list)
+    itemsList.appendChild(div);
+  });
+}
+
+// Function to display the selected item in the right section
+function displayItemInRightSection(item) {
+  const displayImage = document.getElementById("display-image");
+  displayImage.src = item; // Update with the selected item (larger image)
+}
+
+
+
+</script>
+
+<!-- Script -->
+
+
+
+
+</body>
+</html>
